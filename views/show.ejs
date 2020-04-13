@@ -9,7 +9,7 @@
 		<span><%=foundBlog.created.toDateString()%></span>
 	    </div>
             <div class="description">
-		<p><%=foundBlog.body%></p>
+		<p><%-foundBlog.body%></p>
 	    </div>
 	</div>
         <a class="ui basic green button" href="/blogs/<%=foundBlog.id%>/edit">Edit Post</a>

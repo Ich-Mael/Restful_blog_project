@@ -2,14 +2,14 @@
 const express = require ('express'),
       app = express(),
       bodyParser = require('body-parser'),
-      /*       sanitizer = require('express-sanitizer'),*/
+      expressSanitizer = require('express-sanitizer'),
       mongoose = require('mongoose'),
 methodOverride = require('method-override');
 
 //APP CONFIG
 mongoose.connect('mongodb://localhost/restful_blog_app',{useNewUrlParser: true, useUnifiedTopology: true});
 app.use(bodyParser.urlencoded({extended: true}));
-/* app.use(sanitizer)*/
+app.use(expressSanitizer())
 app.use(methodOverride("_method"))
 
 app.set("view engine", "ejs");
@@ -56,7 +56,7 @@ app.get("/blogs/new", (req, res)=>{
 app.post("/blogs", (req, res)=>{
     let blogData = req.body.blog ;
     console.log(blogData.body)
-    /*     blogData.body = req.sanitize(blogData.body);*/
+    blogData.body = req.sanitize(blogData.body);
     console.log(blogData.body);
     Blog.create(blogData, (err, newBlog)=>{
 	if(err){
@@ -114,6 +114,6 @@ app.delete("/blogs/:id", (req, res)=>{
     });
 });
 
-app.listen(3000, ()=>{
+app.listen(4000, ()=>{
     console.log("The Blog Post App Server has started");
 })
