@@ -9,8 +9,8 @@ methodOverride = require('method-override');
 //APP CONFIG
 mongoose.connect('mongodb://localhost/restful_blog_app',{useNewUrlParser: true, useUnifiedTopology: true});
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(expressSanitizer())
-app.use(methodOverride("_method"))
+app.use(expressSanitizer());
+app.use(methodOverride("_method"));
 
 app.set("view engine", "ejs");
 app.use(express.static("Public"));
@@ -24,7 +24,7 @@ const blogSchema = new mongoose.Schema({
 });
 
 let Blog = mongoose.model("blog", blogSchema);
-/* 
+/*
  * Blog.create({
  *     title: "Fallen",
  *     image:"https://media.gettyimages.com/photos/hanging-out-2-picture-id172663152?s=2048x2048",
@@ -34,17 +34,17 @@ let Blog = mongoose.model("blog", blogSchema);
 // ROUTES
 
 app.get("/", (req, res)=>{
-    res.redirect("/blogs")
+  res.redirect("/blogs");
 });
 
 app.get("/blogs", (req, res)=>{
     Blog.find({}, (err, blogs)=>{
 	if(err){
-	    console.log(err)
+	  console.log(err);
 	}else{
-	    res.render("index",{blogs: blogs})
+	  res.render("index",{blogs: blogs});
 	}
-    }); 
+    });
 });
 
 // route for a new post
@@ -55,7 +55,7 @@ app.get("/blogs/new", (req, res)=>{
 // create route
 app.post("/blogs", (req, res)=>{
     let blogData = req.body.blog ;
-    console.log(blogData.body)
+  console.log(blogData.body);
     blogData.body = req.sanitize(blogData.body);
     console.log(blogData.body);
     Blog.create(blogData, (err, newBlog)=>{
@@ -74,10 +74,10 @@ app.get("/blogs/:id", (req, res)=>{
 	if(err){
 	    res.redirect("/blogs");
 	}else{
-	    res.render("show", {foundBlog: foundBlog})
+	  res.render("show", {foundBlog: foundBlog});
 	}
-   }); 
-})
+   });
+});
 
 // edit route
 
@@ -86,7 +86,7 @@ app.get("/blogs/:id/edit", (req, res)=>{
 	if(err){
 	    res.redirect("/blogs");
 	}else{
-	    res.render("edit", {foundBlog: foundBlog})
+	  res.render("edit", {foundBlog: foundBlog});
 	}
 });
 });
@@ -100,7 +100,7 @@ app.put("/blogs/:id", (req,res)=>{
 	}else{
 	    res.redirect("/blogs/"+req.params.id);
 	}
-    })
+    });
 });
 
 // delete route
@@ -116,4 +116,4 @@ app.delete("/blogs/:id", (req, res)=>{
 
 app.listen(4000, ()=>{
     console.log("The Blog Post App Server has started");
-})
+});

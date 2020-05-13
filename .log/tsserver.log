@@ -1,72 +1,27 @@
-Info 0    [9:37:53.775] Starting TS Server
-Info 1    [9:37:53.776] Version: 3.8.3
-Info 2    [9:37:53.776] Arguments: /Users/ich-jeferson/.nvm/versions/node/v12.4.0/bin/node /Users/ich-jeferson/.nvm/versions/node/v12.4.0/bin/tsserver --logFile /Users/ich-jeferson/Desktop/blog/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/0x/plcx5lwx443gm651g30q56k00000gn/T/03c76fb37138228bea83aa7df67fdc27/tscancellation*
-Info 3    [9:37:53.776] Platform: darwin NodeVersion: 12 CaseSensitive: false
-Info 4    [9:37:53.787] Search path: /Users/ich-jeferson/Desktop/blog
-Info 5    [9:37:53.788] For info: /Users/ich-jeferson/Desktop/blog/app.js :: No config files found.
-Info 6    [9:37:53.793] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 7    [9:37:54.823] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 1030ms
-Info 8    [9:37:54.823] Project '/dev/null/inferredProject1*' (Inferred) 
-Info 9    [9:37:54.823] 	Files (90)
+Info 0    [10:28:29.697] Starting TS Server
+Info 1    [10:28:29.698] Version: 3.8.3
+Info 2    [10:28:29.698] Arguments: /Users/ich-jeferson/.nvm/versions/node/v12.4.0/bin/node /Users/ich-jeferson/.nvm/versions/node/v12.4.0/bin/tsserver --logFile /Users/ich-jeferson/Courses/web_dev_Bootcamp/RESTful_Routing/blog_post_app/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/0x/plcx5lwx443gm651g30q56k00000gn/T/ce38f28c272abd6c150c1b90cde1fa73/tscancellation*
+Info 3    [10:28:29.698] Platform: darwin NodeVersion: 12 CaseSensitive: false
+Info 4    [10:28:44.848] Search path: /Users/ich-jeferson/Courses/web_dev_Bootcamp/RESTful_Routing/blog_post_app
+Info 5    [10:28:44.849] For info: /Users/ich-jeferson/Courses/web_dev_Bootcamp/RESTful_Routing/blog_post_app/app.js :: No config files found.
+Info 6    [10:28:44.853] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 7    [10:28:46.318] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 1464ms
+Info 8    [10:28:46.318] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 9    [10:28:46.319] 	Files (93)
 
-Info 10   [9:37:54.823] -----------------------------------------------
-Info 11   [9:37:55.825] DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/.staging :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 12   [9:37:55.827] Elapsed:: 2ms DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/.staging :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 13   [9:37:55.827] DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/.staging/types-registry-65b6cbf2 :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 14   [9:37:55.828] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/.staging/types-registry-65b6cbf2 :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 15   [9:37:55.876] DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/.staging/types-registry-65b6cbf2/README.md :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 16   [9:37:55.876] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/.staging/types-registry-65b6cbf2/README.md :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 17   [9:37:55.876] DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/.staging/types-registry-65b6cbf2/package.json :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 18   [9:37:55.876] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/.staging/types-registry-65b6cbf2/package.json :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 19   [9:37:55.876] DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/.staging/types-registry-65b6cbf2/index.json :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 20   [9:37:55.876] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/.staging/types-registry-65b6cbf2/index.json :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 21   [9:37:55.877] DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/types-registry/README.md :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 22   [9:37:55.877] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/types-registry/README.md :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 23   [9:37:55.877] DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/types-registry/index.json :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 24   [9:37:55.877] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/types-registry/index.json :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 25   [9:37:55.877] DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/.staging/types-registry-65b6cbf2 :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 26   [9:37:55.878] Elapsed:: 1ms DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/.staging/types-registry-65b6cbf2 :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 27   [9:37:55.878] DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/types-registry :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 28   [9:37:55.878] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/types-registry :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 29   [9:37:55.878] DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/types-registry/package.json.4178474390 :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 30   [9:37:55.878] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/types-registry/package.json.4178474390 :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 31   [9:37:55.878] DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/types-registry/package.json :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 32   [9:37:55.878] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/types-registry/package.json :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 33   [9:37:55.878] DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/.staging :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 34   [9:37:55.879] Elapsed:: 1ms DirectoryWatcher:: Triggered with /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules/.staging :: WatchInfo: /Users/ich-jeferson/Library/Caches/typescript/3.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 35   [9:37:56.82] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 36   [9:37:56.215] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true Elapsed: 133ms
-Info 37   [9:37:56.215] Different program with same set of files:: oldProgram.structureIsReused:: 1
-Info 38   [9:37:56.216] Structure before ensureProjectForOpenFiles:
-Info 39   [9:37:56.216] Structure after ensureProjectForOpenFiles:
-Info 40   [9:37:56.216] got projects updated in background, updating diagnostics for /Users/ich-jeferson/Desktop/blog/app.js
-Info 41   [9:37:57.681] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 42   [9:37:57.708] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: true Elapsed: 27ms
-Info 43   [9:37:57.708] Project '/dev/null/inferredProject1*' (Inferred) 
-Info 44   [9:37:57.708] 	Files (92)
+Info 10   [10:28:46.319] -----------------------------------------------
+Info 11   [10:28:46.945] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 12   [10:28:46.978] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true Elapsed: 32ms
+Info 13   [10:28:46.978] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 14   [10:28:46.978] 	Files (95)
 
-Info 45   [9:37:57.708] -----------------------------------------------
-Info 46   [9:37:57.709] Structure before ensureProjectForOpenFiles:
-Info 47   [9:37:57.709] Structure after ensureProjectForOpenFiles:
-Info 48   [9:37:57.709] got projects updated in background, updating diagnostics for /Users/ich-jeferson/Desktop/blog/app.js
-Info 49   [9:37:58.153] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 50   [9:37:58.159] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false Elapsed: 6ms
-Info 51   [9:37:58.159] Different program with same set of files:: oldProgram.structureIsReused:: 2
-Info 52   [9:37:58.159] Structure before ensureProjectForOpenFiles:
-Info 53   [9:37:58.159] Structure after ensureProjectForOpenFiles:
-Info 54   [9:37:58.159] got projects updated in background, updating diagnostics for /Users/ich-jeferson/Desktop/blog/app.js
-Info 55   [9:48:33.64] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 56   [9:48:33.112] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: true Elapsed: 48ms
-Info 57   [9:48:33.112] Project '/dev/null/inferredProject1*' (Inferred) 
-Info 58   [9:48:33.112] 	Files (89)
-
-Info 59   [9:48:33.112] -----------------------------------------------
-Info 60   [9:48:33.112] Structure before ensureProjectForOpenFiles:
-Info 61   [9:48:33.112] Structure after ensureProjectForOpenFiles:
-Info 62   [9:48:33.112] got projects updated in background, updating diagnostics for /Users/ich-jeferson/Desktop/blog/app.js
-Info 63   [9:48:33.217] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 64   [9:48:33.224] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: false Elapsed: 7ms
-Info 65   [9:48:33.224] Different program with same set of files:: oldProgram.structureIsReused:: 2
-Info 66   [9:48:33.472] Structure before ensureProjectForOpenFiles:
-Info 67   [9:48:33.472] Structure after ensureProjectForOpenFiles:
-Info 68   [9:48:33.472] got projects updated in background, updating diagnostics for /Users/ich-jeferson/Desktop/blog/app.js
+Info 15   [10:28:46.978] -----------------------------------------------
+Info 16   [10:28:46.979] Structure before ensureProjectForOpenFiles:
+Info 17   [10:28:46.979] Structure after ensureProjectForOpenFiles:
+Info 18   [10:28:46.979] got projects updated in background, updating diagnostics for /Users/ich-jeferson/Courses/web_dev_Bootcamp/RESTful_Routing/blog_post_app/app.js
+Info 19   [10:28:47.442] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 20   [10:28:47.461] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: true Elapsed: 19ms
+Info 21   [10:28:47.461] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 22   [10:28:47.462] Structure before ensureProjectForOpenFiles:
+Info 23   [10:28:47.462] Structure after ensureProjectForOpenFiles:
+Info 24   [10:28:47.462] got projects updated in background, updating diagnostics for /Users/ich-jeferson/Courses/web_dev_Bootcamp/RESTful_Routing/blog_post_app/app.js
